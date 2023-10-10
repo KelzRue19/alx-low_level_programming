@@ -1,22 +1,24 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * main - Entry Point.use only user defined variable to create output.
  *
- * Description: prints _putchar and a new line
+ * Description: Print notrebloh using predefined functions
  *
  * Return: 0
  */
+
 int main(void)
 {
-	char str[] = "_putchar\n";
-	int i = 0;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	while (str[i] != '\0')
-	{
-		char c = str[i];
-
-		_putchar(c);
-		i++;
-	}
-	return (0);
+return (0);
 }
